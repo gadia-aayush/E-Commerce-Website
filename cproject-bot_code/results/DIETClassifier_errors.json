@@ -1,0 +1,230 @@
+[
+  {
+    "text": "How can I donate books?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "How can I donate books?",
+        "entity": "Donation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What do you do with collected books?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 36,
+        "value": "What do you do with collected books?",
+        "entity": "Donation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Who all can donate their books?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "value": "Who all can donate their books?",
+        "entity": "Donation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Click here if your query is not listed",
+    "entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "value": "Click here if your query is not listed",
+        "entity": "Donation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Payment",
+        "start": 0,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "Click here if your query is not listed"
+      }
+    ]
+  },
+  {
+    "text": "In how many days my books will be delivered to the address i mentioned in book request.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 87,
+        "value": "In how many days my books will be delivered to the address i mentioned in book request.",
+        "entity": "Delivery"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need to return the item how do I arrange for pick-up?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 55,
+        "value": "I need to return the item how do I arrange for pick-up?",
+        "entity": "Delivery"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Click here if your query is not listed",
+    "entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "value": "Click here if your query is not listed",
+        "entity": "Delivery"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Payment",
+        "start": 0,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "Click here if your query is not listed"
+      }
+    ]
+  },
+  {
+    "text": "I am not able to add the  books in my cart.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 43,
+        "value": "I am not able to add the  books in my cart.",
+        "entity": "General"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do you throw any books away?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 28,
+        "value": "Do you throw any books away?",
+        "entity": "General"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is the mission with this great initiative?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 47,
+        "value": "What is the mission with this great initiative?",
+        "entity": "General"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Does the company charge for the service it is providing to its Users ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 70,
+        "value": "Does the company charge for the service it is providing to its Users ?",
+        "entity": "General"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Click here if your query is not listed",
+    "entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "value": "Click here if your query is not listed",
+        "entity": "General"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Payment",
+        "start": 0,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "Click here if your query is not listed"
+      }
+    ]
+  },
+  {
+    "text": "Do I have to pay for the books I requested ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 44,
+        "value": "Do I have to pay for the books I requested ?",
+        "entity": "Payment"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How do I pay for book delivery charges?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "How do I pay for book delivery charges?",
+        "entity": "Payment"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How do I use credit cards/debit cards?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "value": "How do I use credit cards/debit cards?",
+        "entity": "Payment"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is it safe to use credit/debit card on the website ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 52,
+        "value": "Is it safe to use credit/debit card on the website ?",
+        "entity": "Payment"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What is a 3D secure password?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "What is a 3D secure password?",
+        "entity": "Payment"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

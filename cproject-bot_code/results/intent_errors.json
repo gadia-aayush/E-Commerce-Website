@@ -1,0 +1,114 @@
+[
+  {
+    "text": "What is a 3D secure password?",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "payment",
+      "confidence": 0.5830101370811462
+    }
+  },
+  {
+    "text": "How can I donate books?",
+    "intent": "donation",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.622703492641449
+    }
+  },
+  {
+    "text": "What do you do with collected books?",
+    "intent": "donation",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6150179505348206
+    }
+  },
+  {
+    "text": "Who all can donate their books?",
+    "intent": "donation",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6699972152709961
+    }
+  },
+  {
+    "text": "In how many days my books will be delivered to the address i mentioned in book request.",
+    "intent": "delivery",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.535162091255188
+    }
+  },
+  {
+    "text": "I need to return the item how do I arrange for pick-up?",
+    "intent": "delivery",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.49741148948669434
+    }
+  },
+  {
+    "text": "I am not able to add the  books in my cart.",
+    "intent": "general",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.546657383441925
+    }
+  },
+  {
+    "text": "Do you throw any books away?",
+    "intent": "general",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5399768352508545
+    }
+  },
+  {
+    "text": "What is the mission with this great initiative?",
+    "intent": "general",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4879405200481415
+    }
+  },
+  {
+    "text": "Does the company charge for the service it is providing to its Users ?",
+    "intent": "general",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5614289045333862
+    }
+  },
+  {
+    "text": "Do I have to pay for the books I requested ?",
+    "intent": "payment",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5178731679916382
+    }
+  },
+  {
+    "text": "How do I pay for book delivery charges?",
+    "intent": "payment",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.47667649388313293
+    }
+  },
+  {
+    "text": "How do I use credit cards/debit cards?",
+    "intent": "payment",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4693662226200104
+    }
+  },
+  {
+    "text": "Is it safe to use credit/debit card on the website ?",
+    "intent": "payment",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.47505536675453186
+    }
+  }
+]

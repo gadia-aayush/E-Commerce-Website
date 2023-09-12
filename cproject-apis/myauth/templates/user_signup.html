@@ -1,0 +1,19 @@
+<html>
+<body>
+  <form method="POST">
+    {% csrf_token %}
+    
+    <label  for="phone">phone</label>
+    <input type="phone" id="phone" name="phone" placeholder="phone" tabindex="1" required>
+
+    <label  for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="name" tabindex="2" required>
+    
+    <label  for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="email" tabindex="3">
+
+    <label  for="password">password</label>
+    <input type="password" id="password" name="password" placeholder="password" tabindex="4" required>
+    
+    <button type="submit">Register</button>
+</form>

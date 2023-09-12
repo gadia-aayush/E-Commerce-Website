@@ -1,0 +1,24 @@
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+</head>
+<body>
+    <form action="charge" method="POST">
+        <script
+            src="https://checkout.razorpay.com/v1/checkout.js"
+            data-key="rzp_test_WyK93y9mvps7SN"
+            data-amount="510000"
+            data-name="CProject"
+            data-description="Purchase Description"
+            data-image="logo.png"
+            data-netbanking="true"
+            data-description="Book"
+            data-prefill.name="Aayush Gadia"
+            data-prefill.email="gadia.aayush@gmail.com"
+            data-prefill.contact="8334827095"
+            data-notes.shopping_order_id="1">
+        </script>
+        <input type="hidden" name="shopping_order_id" value="21">
+    </form>
+</body>
+</html>

@@ -1,0 +1,128 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- bot_challenge
+- goodbye
+- greet
+- insult
+- out_of_scope
+- reset:
+    triggers: action_reset
+- inform
+- donation
+- delivery
+- general
+- payment
+entities:
+- Donation
+- Delivery
+- General
+- Payment
+slots:
+  Delivery:
+    type: unfeaturized
+    auto_fill: false
+  Donation:
+    type: unfeaturized
+    auto_fill: false
+  General:
+    type: unfeaturized
+    auto_fill: false
+  Payment:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_cannot_help:
+  - text: I'm afraid I can't help with that.
+  utter_goodbye:
+  - text: Happy to help you. Stay safe and healthy.
+  - text: Goodbye. Stay healthy.
+  - text: Bye. Have a nice day.
+  - text: Bye. Stay safe and healthy.
+  - text: Goodbye.
+  - text: It was my pleasure serving you. Stay safe and healthy.
+  utter_greet:
+  - text: Hi there! I'm AayushJi and I'm here to help you. Please tell your query.
+  - text: Hello, I'm AayushJi Bot. How may I help you today?
+  - text: Hi! I'm AayushJi and I'm here to help you. Please tell your query.
+  utter_iamabot:
+  - text: I'm AayushJi Bot. I was made by Aayush Gadia for his Final Year College
+      Project. I was made with the idea to answer user queries.
+  utter_respond_insult:
+  - text: That's not very nice of what you said.
+  utter_ask_Donation:
+  - text: Please choose the Query on which you want the answer
+    buttons:
+    - title: How can I donate books?
+      payload: /inform{"Donation":"How can I donate books?"}
+    - title: What do you do with collected books?
+      payload: /inform{"Donation":"What do you do with collected books?"}
+    - title: Who all can donate their books?
+      payload: /inform{"Donation":"Who all can donate their books?"}
+    - title: Click here if your query is not listed
+      payload: /inform{"Donation":"Click here if your query is not listed"}
+  utter_ask_Delivery:
+  - text: Please choose the Query on which you want the answer
+    buttons:
+    - title: In how many days my books will be delivered to the address i mentioned
+        in book request.
+      payload: /inform{"Delivery":"In how many days my books will be delivered to
+        the address i mentioned in book request."}
+    - title: I need to return the item how do I arrange for pick-up?
+      payload: /inform{"Delivery":"I need to return the item how do I arrange for
+        pick-up?"}
+    - title: Click here if your query is not listed
+      payload: /inform{"Delivery":"Click here if your query is not listed"}
+  utter_ask_General:
+  - text: Please choose the Query on which you want the answer
+    buttons:
+    - title: I am not able to add the  books in my cart.
+      payload: /inform{"General":"I am not able to add the  books in my cart."}
+    - title: Do you throw any books away?
+      payload: /inform{"General":"Do you throw any books away?"}
+    - title: What is the mission with this great initiative?
+      payload: /inform{"General":"What is the mission with this great initiative?"}
+    - title: Does the company charge for the service it is providing to its Users
+        ?
+      payload: /inform{"General":"Does the company charge for the service it is providing
+        to its Users ?"}
+    - title: Click here if your query is not listed
+      payload: /inform{"General":"Click here if your query is not listed"}
+  utter_ask_Payment:
+  - text: Please choose the Query on which you want the answer
+    buttons:
+    - title: Do I have to pay for the books I requested ?
+      payload: /inform{"Payment":"Do I have to   pay for the books I requested ?"}
+    - title: How do I pay for book delivery charges?
+      payload: /inform{"Payment":"How do I pay for book delivery charges?"}
+    - title: How do I use credit cards/debit cards?
+      payload: /inform{"Payment":"How do I use credit cards/debit cards?"}
+    - title: Is it safe to use credit/debit card on the website ?
+      payload: /inform{"Payment":"Is it safe to use credit/debit card on the website
+        ?"}
+    - title: What is a 3D secure password?
+      payload: /inform{"Payment":"What is a 3D secure password?"}
+    - title: Click here if your query is not listed
+      payload: /inform{"Payment":"Click here if your query is not listed"}
+  utter_wrong:
+  - text: I see you have not chosen an option on which I can answer you.
+actions:
+- action_reset
+- utter_cannot_help
+- utter_goodbye
+- utter_greet
+- utter_iamabot
+- utter_respond_insult
+- utter_ask_Donation
+- utter_ask_Delivery
+- utter_ask_General
+- utter_ask_Payment
+- utter_wrong
+forms:
+- donation_queries_form
+- delivery_queries_form
+- general_queries_form
+- payment_queries_form

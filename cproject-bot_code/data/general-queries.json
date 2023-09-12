@@ -1,0 +1,43 @@
+{
+  "donation": {
+    "How can I donate books?" : "It’s quite simple you just have to login to our website and fill the information from and we will get back to you with all the details regarding collection of books in 24 working hours."
+    ,
+    "What do you do with collected books?" : "We finds the best possible use for each book collected in support of our mission to promote literacy. Every book verified thrice before listed on the website  to ensure condition of books and to meet satisfaction  level of readers or recycled if unsuitable for use."
+    ,
+    "Who all can donate their books?" : "Any  individuals who really like our unique idea can  join hands with us.However we are looking for school, college and university campuses  different corporate houses libraries and social organisation to come forward and support us to run book donation drives and help us in collecting these books."
+    ,
+    "Click here if your query is not listed" : "Email your query @ gadia.aayush@gmail.com or Call our Helpline @ +91-8334827095"
+  },
+  "general": {
+    "I am not able to add the  books in my cart." : "Kindly log in before adding your books in the cart.If your are a new user please sign up to proceed further.You can also call us on our helpline for  more assistance."
+    ,
+    "Do you throw any books away?" : "Never! We pride ourselves on our ability to derive the maximum use  from every book collected. Any book that cannot be used directly is recycled."
+    ,
+    "What is the mission with this great initiative?" : "With this initiative we are giving our best efforts to provide a real time platform to each individual. So that the can get their books without  spending their money and time at their doorstep and on the other side their unused books in their bookshelf  will reach to a potential reader."
+    ,
+    "Does the company charge for the service it is providing to its Users ?" : "No,we are not charging for the books we are providing to our users. Its is totally free ,however you have to pay a nominal amount as a shipping & handling   against delivery of books at your door step. Shipping charges  depend on distance and weight/size of your book packet.Handling charges varies from 0% to 15% of MRP value depending on the condition of book received . This amount is used for maintenance of books, books procurement cost from donors doorstep in different cities in India ,  warehouse cost and other allied expenditure ."
+    ,
+    "Click here if your query is not listed" : "Email your query @ gadia.aayush@gmail.com or Call our Helpline @ +91-8334827095"
+},
+  "payment": {
+    "Do I have to pay for the books I requested ?" : "No, you need not to pay for the books as these books are donated by different individuals and we are working as a service provider to collect /verify/list / deliver these books.However a nominal shipping and handling charge will be applicable for delivering these books ."
+    ,
+    "How do I pay for book delivery charges?" : "We offer you multiple payment methods. Whatever your online mode of payment, you can rest assured that  trusted our payment gateway partners use secure encryption technology to keep your transaction details confidential at all times. You may use Internet Banking,debit card, credit card or Paytm wallet and Payumoney wallet. We also accepts payments made using Visa, MasterCard, Maestro and American Express credit/debit cards,wallet payments in India ."
+    ,
+    "How do I use credit cards/debit cards?" : "We accept payments made by credit/debit cards issued in India . Credit cards- We accept payments made using Visa, MasterCard and American Express credit cards. To pay using your credit card at checkout, you will need your card number, expiry date, three-digit CVV number (found on the backside of your card). After entering these details, you will be redirected to the bank’s page for entering the online 3D Secure password. Debit cards- We accept payments made using Visa, MasterCard and Maestro debit cards. To pay using your debit card at checkout, you will need your card number, expiry date (optional for Maestro cards), three-digit CVV number (optional for Maestro cards). You will then be redirected to your bank’s secure page for entering your online password (issued by your bank) to complete the payment."
+    ,
+    "Is it safe to use credit/debit card on the website ?" : "Your online transaction on the website is secure with the highest levels of transaction security currently available on the Internet. We use 256-bit encryption technology to protect your card information while securely transmitting it to the respective banks for payment processing. All credit card and debit card payments on the website are processed through secure and trusted payment gateways managed by leading banks. Banks now use the 3D Secure password service for online transactions, providing an additional layer of security through identity verification."
+    ,
+    "What is a 3D secure password?" : "The 3D Secure password is implemented by VISA and MasterCard in partnership with card issuing banks under the “Verified by VISA” and “Mastercard SecureCode” services, respectively.The 3D Secure password adds an additional layer of security through identity verification for your online credit/debit card transactions. This password, which is created by you, is known only to you. This ensures that only you can use your card for online transaction"
+    ,
+    "Click here if your query is not listed" : "Email your query @ gadia.aayush@gmail.com or Call our Helpline @ +91-8334827095"
+  },
+  "delivery":{
+    "In how many days my books will be delivered to the address i mentioned in book request." : "Delivery time period will vary from 1-8 working days which depends upon which place you are located in. We always give our best effort to track the consignment from our end and with the help of our logistic partners to give you a faster and reliable service in lowest possible transportation cost."
+    ,
+    "I need to return the item how do I arrange for pick-up?" : "The books we send to you are verified thrice before listing on the website. As these books are given by individuals as donation to potential reader’s .We request you to kindly place your request for those books only which you really require .So that we can provide this facility to maximum number of needy readers. However if you don’t require it you can send this books again or can itself give to other needy reader. For more details you can call us at +91-9007022851 or write to us at gadia.aayush@gmail.com "
+    ,
+    "Click here if your query is not listed" : "Email your query @ gadia.aayush@gmail.com or Call our Helpline @ +91-8334827095"
+  }
+
+}

@@ -1,0 +1,44 @@
+{
+  "Donation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 26
+  },
+  "Payment": {
+    "precision": 0.25,
+    "recall": 0.1568627450980392,
+    "f1-score": 0.1927710843373494,
+    "support": 51
+  },
+  "Delivery": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 37
+  },
+  "General": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 47
+  },
+  "micro avg": {
+    "precision": 0.25,
+    "recall": 0.049689440993788817,
+    "f1-score": 0.08290155440414508,
+    "support": 161
+  },
+  "macro avg": {
+    "precision": 0.0625,
+    "recall": 0.0392156862745098,
+    "f1-score": 0.04819277108433735,
+    "support": 161
+  },
+  "weighted avg": {
+    "precision": 0.07919254658385093,
+    "recall": 0.049689440993788817,
+    "f1-score": 0.061064132305619995,
+    "support": 161
+  }
+}
